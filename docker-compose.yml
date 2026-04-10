@@ -5,8 +5,8 @@ services:
     image: postgres:15
     restart: unless-stopped
     environment:
-      POSTGRES_USER: n8n
-      POSTGRES_PASSWORD: n8npassword
+      POSTGRES_USER: femi
+      POSTGRES_PASSWORD: 1conceptzzz@
       POSTGRES_DB: n8n
     volumes:
       - postgres_data:/var/lib/postgresql/data
